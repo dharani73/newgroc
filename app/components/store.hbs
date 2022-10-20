@@ -1,0 +1,31 @@
+<Store::Detailed @store={{@model}} />
+<article class='store'>
+  <Store::Image
+    src={{@store.image}}
+    alt='A picture of
+  {{@store.title}}'
+  />
+  <div class='details'>
+    <h3>
+      <LinkTo @route='store' @model={{@store}}>
+        {{@store.title}}
+      </LinkTo>
+    </h3>
+    <div class='detail homedelivery'>
+      <span>homedelivery:</span>
+      {{@store.homedelivery}}
+    </div>
+    <div class='detail location'>
+      <span>location:</span>
+      {{@store.city}}
+    </div>
+    <div class='detail Rating'>
+      <span>Rating:</span>
+      {{@store.Rating}}
+    </div>
+    <div class='detail stock'>
+      <span>stock:</span>
+      {{@store.stock}}
+    </div>
+  </div>
+</article>

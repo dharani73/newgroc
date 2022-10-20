@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "type": "stores",
+      "id": 1,
+      "attributes": {
+        "title": "Fresh Vegetables",
+        "homedelivery": "Available",
+        "city": "hyderabad",
+        "Rating": "5 star",
+        "stock": "Available",
+        "location": {
+          "lat": 37.7749,
+          "lng": -122.4194
+        },
+        "category": "Vegetables",
+        "image": "https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg",
+        "description": "These are organic vegetables also fresh and easy to buy now from our app."
+      }
+    },
+    {
+      "type": "stores",
+      "id": 2,
+      "attributes": {
+        "title": "Fresh Fruits",
+        "homedelivery": "Available",
+        "city": "hyderabad",
+        "Rating": "5 star",
+        "stock": "Available",
+        "location": {
+          "lat": 37.7749,
+          "lng": -122.4194
+        },
+        "category": "Fruits",
+        "image": "https://media.istockphoto.com/photos/assortment-of-colorful-ripe-tropical-fruits-top-view-picture-id995518546?k=20&m=995518546&s=612x612&w=0&h=yPdMHr-CL9JD8eLnyBr2_hFpx6l3jUBU9UEwwdnNfAU=",
+        "description": "These are organic fruits also fresh and easy to buy now from our app."
+      }
+    },
+    {
+      "type": "stores",
+      "id": 3,
+      "attributes": {
+        "title": "Cereals",
+        "homedelivery": "Available",
+        "city": "hyderabad",
+        "Rating": "5 star",
+        "stock": "Available",
+        "location": {
+          "lat": 37.7749,
+          "lng": -122.4194
+        },
+        "category": "Cereals",
+        "image": "https://media.istockphoto.com/photos/set-of-different-cereals-with-milk-on-a-white-background-picture-id1064268580?k=20&m=1064268580&s=612x612&w=0&h=didQN0_50lsR08tJRgQfq9YCXALfVzSNPxza557HO7Q=",
+        "description": "These are organic Cereals also fresh and easy to buy now from our app."
+      }
+    }
+  ]
+}

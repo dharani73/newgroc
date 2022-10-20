@@ -1,0 +1,14 @@
+<Jumbo>
+  <h2>Welcome to grocery store!</h2>
+  <p>We hope you find best groceries in our store.</p>
+  <LinkTo @route='about' class='button'>About Us</LinkTo>
+</Jumbo>
+
+<div class='store'>
+  <ul class='results'>
+    {{#each @model as |property|}}
+      <li><Store @store={{property}} /></li>
+    {{/each}}
+
+  </ul>
+</div>
